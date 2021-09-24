@@ -1,0 +1,17 @@
+package application;
+
+import java.util.Locale;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+
+		for(int i = 1; i <= 3; i++) {
+			System.out.printf("%d° número: ", i);
+		}
+
+	}
+
+}

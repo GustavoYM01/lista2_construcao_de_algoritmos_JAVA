@@ -1,0 +1,32 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Informe o valor total da compra (R$): ");
+		double totalValue = sc.nextDouble();
+		
+		System.out.println("Informe aqui se é: 1- cliente comum. 2- funcionário 3- vip.");
+		int option = sc.nextInt();
+		
+		sc.nextLine();
+		
+		switch (option) {
+		case 1:
+			System.out.printf("Valor a ser pago: %.2f", totalValue);
+		break;
+		}
+		
+		
+		
+		sc.close();
+	}
+
+}

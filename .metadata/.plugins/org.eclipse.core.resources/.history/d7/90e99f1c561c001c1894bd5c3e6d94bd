@@ -1,0 +1,43 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		for (int i = 1; i <= 1; i++) {
+			System.out.print("Insira aqui o valor total de seu salário: ");
+			double inputSalary = sc.nextDouble();
+
+			if (inputSalary == 0 || inputSalary < 0) {
+				System.out.println("Valor inválido");
+				break;
+			} else {
+
+				System.out.print("Insira aqui o valor do empréstimo: ");
+				double inputLoan = sc.nextDouble();
+
+				if (inputLoan == 0 || inputLoan < 0) {
+					System.out.println("Valor inválido");
+					break;
+				}
+
+				System.out.print("Insira aqui o número de prestações: ");
+				double inputInstallments = sc.nextDouble();
+
+				if (inputInstallments == 0 || inputInstallments < 0) {
+					System.out.println("Valor inválido");
+				}
+
+			}
+		}
+
+		sc.close();
+	}
+
+}
