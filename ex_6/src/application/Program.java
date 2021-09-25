@@ -16,11 +16,11 @@ public class Program {
 		double result;
 
 		for (int i = 1; i <= 4; i++) {
-			System.out.printf("%d° nota: ", i);
+			System.out.printf("%dÂ° nota: ", i);
 			double nota = sc.nextDouble();
 
 			if (nota < 0 || nota > 10) {
-				System.out.println("Nota inválida!");
+				System.out.println("Nota invÃ¡lida!");
 				break;
 			}
 
@@ -36,7 +36,7 @@ public class Program {
 		} else if (result >= 5 && result <= 7) {
 			System.out.printf("ALUNO DE EXAME FINAL | nota: %.2f%n", result);
 		} else {
-			System.out.printf("ALUNO REPROVADO | nota: %.2f%n\", result");
+			System.out.printf("ALUNO REPROVADO | nota: %.2f%", result);
 		}
 
 		sc.close();
