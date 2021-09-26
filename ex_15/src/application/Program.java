@@ -18,43 +18,43 @@ public class Program {
 
 		for (int i = 1; i <= 1; i++) {
 
-			System.out.print("Insira aqui o valor total de seu salário: ");
+			System.out.print("Insira aqui o valor total de seu salÃ¡rio: ");
 			double inputSalary = sc.nextDouble();
 
 			if (inputSalary == 0 || inputSalary < 0) {
-				System.out.println("Valor inválido");
+				System.out.println("Valor invÃ¡lido");
 				break;
 
 			} else {
 
-				System.out.print("Insira aqui o valor do empréstimo: ");
+				System.out.print("Insira aqui o valor do emprÃ©stimo: ");
 				double inputLoan = sc.nextDouble();
 
 				if (inputLoan == 0 || inputLoan < 0) {
 
-					System.out.println("Valor inválido");
+					System.out.println("Valor invÃ¡lido");
 					break;
 
 				} else {
 
-					System.out.print("Insira aqui o número de prestações: ");
+					System.out.print("Insira aqui o nÃºmero de prestaÃ§Ãµes: ");
 					int installments = sc.nextInt();
 
 					if (installments == 0 || installments < 0) {
-						System.out.println("Valor inválido");
+						System.out.println("Valor invÃ¡lido");
 						break;
 					} else {
 
 						result = FinancingCoefficient(installments);
 						valueInstallments = result * inputLoan;
-						limitValueInstallments = inputSalary * 0.3; // limite de 30% do salário
+						limitValueInstallments = inputSalary * 0.3; // limite de 30% do salÃ¡rio
 
 						if (valueInstallments <= limitValueInstallments) {
 
-							System.out.printf("Empréstimo concedido. Valor do empréstimo: %.2f%n", valueInstallments);
+							System.out.printf("EmprÃ©stimo concedido. Valor do emprÃ©stimo: %.2f%n", valueInstallments);
 						} else {
 
-							System.out.println("Valor de empréstimo não concedido. Acima de 30% do salário.");
+							System.out.println("Valor de emprÃ©stimo nÃ£o concedido. Valor da prestaÃ§Ã£o acima de 30% do salÃ¡rio.");
 						}
 
 					}
