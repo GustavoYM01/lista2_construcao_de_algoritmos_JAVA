@@ -12,16 +12,14 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Digite a 1° nota: ");
+		System.out.print("Digite a 1Â° nota: ");
 		double n1 = sc.nextDouble();
 
-		System.out.print("Digite a 2° nota: ");
+		System.out.print("Digite a 2Â° nota: ");
 		double n2 = sc.nextDouble();
 
-		System.out.print("Digite a 3° nota: ");
+		System.out.print("Digite a 3Â° nota: ");
 		double n3 = sc.nextDouble();
-
-		sc.nextLine();
 
 		double result;
 
