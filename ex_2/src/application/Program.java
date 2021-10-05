@@ -10,7 +10,7 @@ public class Program {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Insira um número de 1 a 12: ");
+		System.out.print("Insira um nÃºmero de 1 a 12: ");
 		int randomNumber = sc.nextInt();
 
 		switch (randomNumber) {
@@ -19,11 +19,11 @@ public class Program {
 			break;
 
 		case 2:
-			System.out.println("Favereiro");
+			System.out.println("Fevereiro");
 			break;
 
 		case 3:
-			System.out.println("Março");
+			System.out.println("MarÃ§o");
 			break;
 
 		case 4:
@@ -63,7 +63,7 @@ public class Program {
 			break;
 
 		default:
-			System.out.println("número inválido");
+			System.out.println("nÃºmero invÃ¡lido");
 		}
 		sc.close();
 	}
