@@ -10,13 +10,13 @@ public class Program {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Digite um número inteiro qualquer: ");
+		System.out.print("Digite um nÃºmero inteiro qualquer: ");
 		int randomNumber = sc.nextInt();
 
 		if (randomNumber < 3 || randomNumber > 25) {
-			System.out.println("O número digitado não se encontra entre 3 e 25.");
+			System.out.println("O nÃºmero digitado nÃ£o se encontra entre 3 ou 25.");
 		} else {
-			System.out.printf("Número digitado: %d%n", randomNumber);
+			System.out.printf("NÃºmero digitado: %d%n", randomNumber);
 		}
 
 		sc.close();
