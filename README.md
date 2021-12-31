@@ -1,5 +1,7 @@
 # Lista 2 de Construção de Algoritmos em JAVA
 
+> Status: Concluído ✔️
+
 ## Para acessar o código fonte do projeto de cada exercício:
 
 ```
